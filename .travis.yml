@@ -3,6 +3,9 @@ services: docker
 cache:
   - cargo
 
+git:
+  depth: 10
+  
 matrix:
   include:
     - rust: 1.20.0
