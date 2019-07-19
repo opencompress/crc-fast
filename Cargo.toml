@@ -2,18 +2,22 @@
 name = "crc-opencompress" # the name of the package
 version = "0.1.0"    # the current version, obeying semver
 authors = ["Michael Sowka <michael.sowka@happy-it.de>"]
-repository = https://github.com/opencompress/crc-rs.git
-homepage = https://github.com/opencompress/crc-rs/
-readme = README.md
-description = Rust implementations of crc16 crc32 crc64 with their variants and machine optimizations
+repository = "https://github.com/opencompress/crc-rs.git"
+homepage = "https://github.com/opencompress/crc-rs/"
+readme = "README.md"
+description = "Rust implementations of crc16 crc32 crc64 with their variants and machine optimizations"
+keywords = ["crc", "crc16", "crc-16", "crc32", "crc32C", "crc-32"]
 edition = '2018'
-license = MIT/Apache-2.0
+license = "MIT/Apache-2.0"
 
 [dev-dependencies]
+criterion = "0.2"
 crc = { git = "https://github.com/mrhooray/crc-rs" }
 crc_all = { git = "https://github.com/nanpuyue/crc" }
 crc_any = { git = "https://github.com/magiclen/crc-any" }
-criterion = "0.2"
+crc16 = { git = "https://github.com/blackbeam/rust-crc16" }
+cdrom_crc = { git = "https://github.com/mistydemeo/cdrom_crc" }
+rusty_crc = { git = "https://github.com/F3real/rusty_crc16" }
 
 [[bench]]
 name = "crc16_benchmark"
