@@ -1,11 +1,5 @@
-#[macro_use]
-extern crate criterion;
-
-extern crate crc_any;
-
+use criterion::{criterion_group, criterion_main, Criterion , black_box};
 use crc_any::CRC;
-use criterion::Criterion;
-use criterion::black_box;
 
 fn criterion_benchmark(c: &mut Criterion) {
     let mut crc_any_crc16 = CRC::crc16();
