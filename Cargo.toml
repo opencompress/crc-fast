@@ -1,12 +1,12 @@
 [package]
-name = "crc-opencompress" # the name of the package
+name = "crc-fast" # the name of the package
 version = "0.1.0"    # the current version, obeying semver
 authors = ["Michael Sowka <michael.sowka@happy-it.de>"]
-repository = "https://github.com/opencompress/crc-rs.git"
-homepage = "https://github.com/opencompress/crc-rs/"
+repository = "https://github.com/opencompress/crc-fast.git"
+homepage = "https://github.com/opencompress/crc-fast/"
 readme = "README.md"
 description = "Rust implementations of crc16 crc32 crc64 with their variants and machine optimizations"
-keywords = ["crc", "crc16", "crc-16", "crc32", "crc32C", "crc-32"]
+keywords = ["crc", "crc16", "crc-16", "crc32", "crc32C", "crc-32", "checksum", "compression"]
 edition = '2018'
 license = "MIT/Apache-2.0"
 
