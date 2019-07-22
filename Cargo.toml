@@ -21,6 +21,7 @@ rusty_crc = { git = "https://github.com/F3real/rusty_crc16" }
 crc32fast = { git = "https://github.com/srijs/rust-crc32fast" }
 crc32c-hw = { git = "https://github.com/maksimsco/crc32c-hw" }
 rust-crc8 = { git = "https://github.com/mkopa/rust-crc8" }
+adler32 = { git = "https://github.com/remram44/adler32-rs" }
 
 [[bench]]
 name = "crc16_benchmark"
